@@ -52,14 +52,14 @@ function App() {
       <div className='action_container'>
         <h3>비밀 암호 복호화</h3>
         <input type="text" id='interpret_passcode' className='interpret_passcode' placeholder='패스코드' />
-        <input type="text" id="interpret_code" className='interpret_code' placeholder='해석할 비밀 암호' />
+        <input type="text" id="interpret_code" className='interpret_code' placeholder='복호화할 비밀 암호' />
         <button onClick={interpretData}>해석하기</button>
       </div>
 
       <div className='action_container'>
         <h3>비밀 내용 암호화</h3>
         <input type="text" className="upload_passcode" placeholder='패스코드' />
-        <input type="text" className="upload_payload" placeholder='업로드 할 암호' />
+        <input type="text" className="upload_payload" placeholder='암호화 할 내용' />
         <button onClick={uploadData}>업로드하기</button>
       </div>
     </div>
